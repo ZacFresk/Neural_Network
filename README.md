@@ -8,59 +8,62 @@ On orgnization Alphabet Soup wants to make investments in charitable organizatio
 
 ### Preprocessing Data:
 
-  **1) What variables does your model target?**
+- What variables does your model target?
   
-  The target of the model was the "Is_Successful" column. This column would explain which of the organizations were recieving funding
+   - The target of the model was the "Is_Successful" column. This column would explain which of the organizations were recieving funding
   
-  **2) What variables does your model featuring?**
+- What variables does your model featuring?
   
-  All columns except "EIN" and "Name" would be considered features as they were removed
+   - All columns except "EIN" and "Name" would be considered features as they were removed
   
-  **3) What variables could be removed from your data?**
+- What variables could be removed from your data?
   
-  "EIN" and "Name" do not add any potenital benefit for the analysis. They are catagorical data that gave name and number to a certain charity orgnaization.
+   - "EIN" and "Name" do not add any potenital benefit for the analysis. They are catagorical data that gave name and number to a certain charity orgnaization.
   
-  ###Compiling, Training, and Evaluating the Model
+### Compiling, Training, and Evaluating the Model
   
-  **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
+### How many neurons, layers, and activation functions did you select for your neural network model, and why? ###
   
   There are two hidden layers provided with 80 nodes and 30 nodes provided respectively. The model parameters were close to 6,000. After training through 100 epochs, the accuracy was 72.5% rounded.
   
-  1
+  ![1](https://user-images.githubusercontent.com/107363203/204196831-6a5eb785-e139-4c6c-b331-c6e133618745.png)
 
-2
+
+![2](https://user-images.githubusercontent.com/107363203/204196857-c5763269-780a-48be-a9b1-39e402860893.png)
+
 
 When using Neural Network Playground we ran several iterations of hidden layers and neurons. We ended up with several different types of training for the model. Finally we ran through five hidden layers and switched between 50 and 100 epochs for each. 
 
   **Three Hidden Layers**
 
- - 1) 50 Epochs
+ - 50 Epochs
 
-  3
+  ![3](https://user-images.githubusercontent.com/107363203/204196869-7fb15556-b21f-4e4b-92ef-9f1b2cf4cd3b.png)
 
- - 2) 100 Epochs
+ - 100 Epochs
 
-4
-
+![4](https://user-images.githubusercontent.com/107363203/204196878-01af3d5a-5b01-4798-b3cf-f4ba908350eb.png)
+___
   **Four Hidden Layers**
 
- - 1) 50 Epochs
+ - 50 Epochs
 
-5
+![5](https://user-images.githubusercontent.com/107363203/204196882-b2fbdede-0aea-40d6-98ad-e356a4a130d9.png)
 
- - 2) 100 Epochs
+ - 100 Epochs
 
-6
-
+![6](https://user-images.githubusercontent.com/107363203/204196894-8df627b0-2708-4036-9849-6c725e5dedff.png)
+___
   **Five Hidden Layers**
 
-  1) 50 Epochs
+  - 50 Epochs
 
-7
-- 2) 100 Epochs
+![7](https://user-images.githubusercontent.com/107363203/204196903-c5ef35fd-03c2-4a58-b212-ea9003d3dd38.png)
 
-8
+  - 100 Epochs
 
+![8](https://user-images.githubusercontent.com/107363203/204196910-acd0b172-e6b8-45f1-a092-6f70a0ac1d42.png)
+___
 
 **Were you able to achieve the target model performance of 75%?**
 
